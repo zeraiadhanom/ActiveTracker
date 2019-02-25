@@ -1,0 +1,180 @@
+
+
+* {box-sizing: border-box;}
+
+body {
+	margin: 0;
+    padding: 0;
+	background: url("BG1.jpg");
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+.list {
+	
+	width: 500px;
+	height: 600px;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	padding-top: 20px;
+	
+} 
+
+.display table, th, td {
+	padding-top: 20px;
+	padding-left: 50px;
+    border: 1px solid black;
+	background: black;
+	color: white;
+
+} 
+
+
+.register {
+
+	position:fixed;
+	 top:30px; 
+	 left:30px;
+	 width: 40px;
+	 height: 60px;
+}
+
+/* for adding new activity */
+.addActivity {
+
+	position:fixed;
+	 top:30px; 
+	 left:30px;
+	 width: 40px;
+	 height: 60px;
+}
+
+.logo {
+
+	position:fixed;
+	 top:30px; 
+	 left:30px;
+	 width: 40px;
+	 height: 60px;
+
+}
+.login {
+	width: 320px;
+	Height: 420px;
+	background:#000;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.login2 {
+	width: 320px;
+	Height: 620px;
+	background:#000;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+
+h1 {
+
+	margin: 0;
+	padding: 0 0 20;
+	text-align: center;
+	font-size: 22px;
+}
+
+.login2 p {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.login p {
+
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.login2 input {
+	
+	width: 100%;
+	margin-bottom: 20px;
+	
+}
+.login input {
+
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.login2 input[type="text"], input[type="password"]
+
+{
+	border: none;
+	border-bottom:1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color:#fff;
+	font-size: 16px;
+}
+
+
+.login input[type="text"], input[type="password"]
+
+{
+	border: none;
+	border-bottom:1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color:#fff;
+	font-size: 16px;
+}
+
+
+
+}
+
+
+/* for data table */
+
+
+ul li{
+    list-style: none;
+    background: black;
+    margin: 2px;
+    border-raius: 5px;
+    padding: 5px;
+	color: white;
+}
+.deleteMe{
+    float: right;
+    background: yellow;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
